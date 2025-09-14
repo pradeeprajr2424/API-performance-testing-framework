@@ -79,7 +79,7 @@ You’ll see latency, throughput, response times, and error rates.
 ## Future Improvements
 
 * Add **parameterized test plans** for dynamic API endpoints
-* Integrate **Slack/Telegram notifications** for test results
+* Integrate **Slack/email notifications** for test results
 * Add **JMeter metrics parsing** and visualization dashboards
 
 
