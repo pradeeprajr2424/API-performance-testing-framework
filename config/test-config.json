@@ -1,0 +1,21 @@
+{
+  "base_url": "https://jsonplaceholder.typicode.com",
+  "endpoints": [
+    {
+      "path": "/posts",
+      "method": "GET",
+      "expected_status": 200
+    },
+    {
+      "path": "/users",
+      "method": "GET",
+      "expected_status": 200
+    }
+  ],
+  "load_profile": {
+    "users": 50,
+    "spawn_rate": 5,
+    "run_time": "1m"
+  }
+}
+
